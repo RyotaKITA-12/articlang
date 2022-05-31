@@ -66,7 +66,6 @@ class GetArticle:
                 startangle=90,
                 wedgeprops={"edgecolor": "black"}
                 )
-        # plt.title("Programming language popularity order")
         plt.tight_layout()
         plt.savefig("popular_lang.png")
         plt.show()
